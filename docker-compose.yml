@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  my-msg-collector:
+    container_name: my-msg-collector
+    build: .
+    restart: unless-stopped
